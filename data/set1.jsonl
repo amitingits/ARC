@@ -1,0 +1,50 @@
+{"difficulty": "hard", "source": "scout", "prompt": "If A implies B, and B is false, what can be said about A?"}
+{"difficulty": "hard", "source": "scout", "prompt": "Find the roots of the quadratic equation x^2 - 5x + 6 = 0."}
+{"difficulty": "easy", "source": "edge", "prompt": "What color do you get when you mix red and blue?"}
+{"difficulty": "hard", "source": "scout", "prompt": "Differentiate sin(x^2)."}
+{"difficulty": "hard", "source": "scout", "prompt": "Why is the sky blue during the day but red during sunset?"}
+{"difficulty": "easy", "source": "edge", "prompt": "What shape has four equal sides?"}
+{"difficulty": "hard", "source": "scout", "prompt": "What causes lightning during a storm?"}
+{"difficulty": "easy", "source": "edge", "prompt": "Name the largest planet in our solar system."}
+{"difficulty": "easy", "source": "edge", "prompt": "What is the freezing point of water in Celsius?"}
+{"difficulty": "hard", "source": "scout", "prompt": "All mammals have lungs. Dolphins are mammals. Do dolphins have lungs?"}
+{"difficulty": "easy", "source": "edge", "prompt": "What gas do humans breathe in to survive?"}
+{"difficulty": "easy", "source": "edge", "prompt": "What shape has four equal sides?"}
+{"difficulty": "easy", "source": "edge", "prompt": "What is the capital of France?"}
+{"difficulty": "easy", "source": "edge", "prompt": "How many legs does a spider have?"}
+{"difficulty": "hard", "source": "scout", "prompt": "If A and B are true, and C is false, is A AND C true or false?"}
+{"difficulty": "hard", "source": "scout", "prompt": "What is the derivative of ln(x^2 + 1)?"}
+{"difficulty": "hard", "source": "scout", "prompt": "How does photosynthesis work in plants?"}
+{"difficulty": "hard", "source": "scout", "prompt": "What is the value of the infinite geometric series 1 + 1/2 + 1/4 + ...?"}
+{"difficulty": "hard", "source": "scout", "prompt": "Gold is denser than aluminum. If two equal volumes are weighed, which is heavier?"}
+{"difficulty": "hard", "source": "scout", "prompt": "The Nile flows through Egypt. Egypt is in Africa. What continent does the Nile flow through?"}
+{"difficulty": "easy", "source": "edge", "prompt": "Name the process by which plants make food."}
+{"difficulty": "hard", "source": "scout", "prompt": "If all wugs are zogs, and no zogs are plims, can a wug be a plim?"}
+{"difficulty": "hard", "source": "scout", "prompt": "Tom has fewer apples than Jerry. Jerry has fewer apples than Sam. Who has the most apples?"}
+{"difficulty": "hard", "source": "scout", "prompt": "If it rains, the picnic is canceled. The picnic is not canceled. Did it rain?"}
+{"difficulty": "hard", "source": "scout", "prompt": "Plants produce oxygen. Humans need oxygen. Why are plants important for humans?"}
+{"difficulty": "easy", "source": "edge", "prompt": "What gas do humans breathe in to survive?"}
+{"difficulty": "hard", "source": "scout", "prompt": "Bacteria can cause infections. Antibiotics kill bacteria. Why are antibiotics used for infections?"}
+{"difficulty": "hard", "source": "scout", "prompt": "Prove that a number divisible by 6 is divisible by both 2 and 3."}
+{"difficulty": "easy", "source": "edge", "prompt": "What is 5 + 3?"}
+{"difficulty": "hard", "source": "scout", "prompt": "Evaluate the integral of 2x dx."}
+{"difficulty": "hard", "source": "scout", "prompt": "Why does the boiling point of water decrease at higher altitudes?"}
+{"difficulty": "hard", "source": "scout", "prompt": "Why does sound travel faster in solids than in gases?"}
+{"difficulty": "easy", "source": "edge", "prompt": "What color do you get when you mix red and blue?"}
+{"difficulty": "easy", "source": "edge", "prompt": "Who wrote 'Romeo and Juliet'?"}
+{"difficulty": "hard", "source": "scout", "prompt": "All squares are rectangles. Are all rectangles squares?"}
+{"difficulty": "hard", "source": "scout", "prompt": "Prove that the angle sum in a triangle is 180 degrees."}
+{"difficulty": "hard", "source": "scout", "prompt": "What would happen if Earth's rotation suddenly stopped?"}
+{"difficulty": "hard", "source": "scout", "prompt": "Explain why ice floats on water."}
+{"difficulty": "easy", "source": "edge", "prompt": "Name the process by which plants make food."}
+{"difficulty": "hard", "source": "scout", "prompt": "If no cats are dogs and all dogs are animals, are all cats animals?"}
+{"difficulty": "hard", "source": "scout", "prompt": "The sun is a star. Stars emit light. Does the sun emit light?"}
+{"difficulty": "hard", "source": "scout", "prompt": "Copper conducts electricity. Electrical wires are made of copper. Why is copper used in wiring?"}
+{"difficulty": "easy", "source": "edge", "prompt": "Who wrote 'Romeo and Juliet'?"}
+{"difficulty": "hard", "source": "scout", "prompt": "If some A are B and all B are C, what can be said about A and C?"}
+{"difficulty": "hard", "source": "scout", "prompt": "Marie Curie discovered two elements. One is polonium. What is the atomic number of the other?"}
+{"difficulty": "hard", "source": "scout", "prompt": "Prove that the sum of the first n odd numbers is n squared."}
+{"difficulty": "hard", "source": "scout", "prompt": "What causes seasons on Earth?"}
+{"difficulty": "hard", "source": "scout", "prompt": "If f(x) = x^3, what is the second derivative?"}
+{"difficulty": "easy", "source": "edge", "prompt": "What is the freezing point of water in Celsius?"}
+{"difficulty": "easy", "source": "edge", "prompt": "Name the largest planet in our solar system."}

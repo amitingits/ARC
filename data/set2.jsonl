@@ -1,0 +1,50 @@
+{"difficulty": "hard", "source": "scout", "prompt": "Simplify the expression: (x^2 - 1)/(x - 1)."}
+{"difficulty": "easy", "source": "edge", "prompt": "What is 5 + 3?"}
+{"difficulty": "hard", "source": "scout", "prompt": "How does a vaccine help prevent disease?"}
+{"difficulty": "hard", "source": "scout", "prompt": "The Moon affects tides. Tides are influenced by gravity. What causes tides?"}
+{"difficulty": "hard", "source": "scout", "prompt": "Why does a metal expand when heated?"}
+{"difficulty": "hard", "source": "scout", "prompt": "John is taller than Sarah. Sarah is taller than Mike. Who is the shortest?"}
+{"difficulty": "easy", "source": "edge", "prompt": "What is the capital of France?"}
+{"difficulty": "easy", "source": "edge", "prompt": "How many legs does a spider have?"}
+{"difficulty": "hard", "source": "scout", "prompt": "Venus is closer to the sun than Earth. Which of the two planets has a shorter orbit duration?"}
+{"difficulty": "hard", "source": "scout", "prompt": "If today is Monday and tomorrow is not Friday, what day is the day after tomorrow?"}
+{"difficulty": "hard", "source": "scout", "prompt": "A ball is dropped from a height of 100 meters and rebounds to 80% of its previous height each time. After how many bounces will it rebound to less than 1 meter?"}
+{"difficulty": "hard", "source": "scout", "prompt": "If all bloops are razzies and some razzies are doops, can we conclude that some bloops are definitely doops? Why or why not?"}
+{"difficulty": "hard", "source": "scout", "prompt": "Prove that the square root of 2 is irrational using contradiction."}
+{"difficulty": "hard", "source": "scout", "prompt": "If A implies B and B implies C, does A imply C? Provide a logical justification."}
+{"difficulty": "hard", "source": "scout", "prompt": "Is the set of prime numbers finite or infinite? Provide a proof."}
+{"difficulty": "hard", "source": "scout", "prompt": "Describe the process of nucleosynthesis inside stars and how it leads to formation of heavier elements."}
+{"difficulty": "hard", "source": "scout", "prompt": "Describe a chemical scenario where Le Chatelier’s principle can predict a color change in a solution."}
+{"difficulty": "hard", "source": "scout", "prompt": "Given f(x) = x^3 - 3x + 1, determine whether it has a local maximum or minimum, and at what points."}
+{"difficulty": "hard", "source": "scout", "prompt": "If a spaceship is traveling at 0.9c and emits a light signal forward, how fast does the light appear to travel to an outside observer?"}
+{"difficulty": "hard", "source": "scout", "prompt": "Use Bayes’ Theorem to calculate the probability of having a disease given a positive test result with known sensitivity/specificity."}
+{"difficulty": "easy", "source": "edge", "prompt": "What is the capital of Japan?"}
+{"difficulty": "easy", "source": "edge", "prompt": "How many legs does a spider have?"}
+{"difficulty": "easy", "source": "edge", "prompt": "What gas do plants absorb during photosynthesis?"}
+{"difficulty": "easy", "source": "edge", "prompt": "What is 12 multiplied by 3?"}
+{"difficulty": "easy", "source": "edge", "prompt": "What is the boiling point of water in Celsius?"}
+{"difficulty": "hard", "source": "scout", "prompt": "Solve: What is the integral of 1 / (1 + x^2)?"}
+{"difficulty": "hard", "source": "scout", "prompt": "In a truth table, if A is true and B is false, what is A AND B?"}
+{"difficulty": "hard", "source": "scout", "prompt": "Can you prove that the harmonic series diverges?"}
+{"difficulty": "hard", "source": "scout", "prompt": "What is Gödel’s incompleteness theorem and its significance?"}
+{"difficulty": "hard", "source": "scout", "prompt": "Why is entropy a measure of disorder in thermodynamics?"}
+{"difficulty": "hard", "source": "scout", "prompt": "Explain the twin paradox in special relativity with time dilation math."}
+{"difficulty": "hard", "source": "scout", "prompt": "Explain why Mars appears to move backward in the sky occasionally."}
+{"difficulty": "hard", "source": "scout", "prompt": "If you triple the radius of a sphere, by what factor does the volume increase?"}
+{"difficulty": "hard", "source": "scout", "prompt": "What is a Nash equilibrium in game theory and provide an example."}
+{"difficulty": "easy", "source": "edge", "prompt": "What shape has three sides?"}
+{"difficulty": "easy", "source": "edge", "prompt": "Which animal is known as the king of the jungle?"}
+{"difficulty": "easy", "source": "edge", "prompt": "What is the name of our galaxy?"}
+{"difficulty": "easy", "source": "edge", "prompt": "What do we call water in its solid state?"}
+{"difficulty": "easy", "source": "edge", "prompt": "What is the square of 9?"}
+{"difficulty": "easy", "source": "edge", "prompt": "Which planet is closest to the Sun?"}
+{"difficulty": "hard", "source": "scout", "prompt": "Given two functions f(x) = x^2 and g(x) = sin(x), find the derivative of f(g(x))."}
+{"difficulty": "hard", "source": "scout", "prompt": "What is the solution to the recurrence T(n) = 2T(n/2) + n?"}
+{"difficulty": "hard", "source": "scout", "prompt": "In propositional logic, what is the negation of 'if A then B'?"}
+{"difficulty": "hard", "source": "scout", "prompt": "Show how the area under the normal distribution curve integrates to 1."}
+{"difficulty": "hard", "source": "scout", "prompt": "Explain the Michelson-Morley experiment and its conclusion."}
+{"difficulty": "hard", "source": "scout", "prompt": "How does the uncertainty principle apply to electron orbitals?"}
+{"difficulty": "hard", "source": "scout", "prompt": "How does gravitational lensing work and what is it used for?"}
+{"difficulty": "hard", "source": "scout", "prompt": "Describe how CRISPR technology works in gene editing."}
+{"difficulty": "easy", "source": "edge", "prompt": "What is the color of the sky on a clear day?"}
+{"difficulty": "easy", "source": "edge", "prompt": "Which animal barks and is kept as a pet?"}

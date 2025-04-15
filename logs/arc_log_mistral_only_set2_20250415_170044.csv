@@ -1,0 +1,407 @@
+Task,Prompt,ModelUsed,Difficulty,Confidence Score,Response,TokensUsed,TimeTaken (s),Error,Timestamp
+1,Simplify the expression: (x^2 - 1)/(x - 1).,Mistral,hard,-,"The expression to simplify is:
+
+(x^2 - 1) / (x - 1)
+
+or
+
+(x^2 - 1) / x - 1
+
+or
+
+(x^2 - 1) / ((x - 1)^2)
+
+or
+
+((x - 1)^2)/(x^2 - 1)",-,2.674,-,2025-04-15T17:00:47.384109
+2,What is 5 + 3?,Mistral,easy,-,5 + 3 = 8,-,2.136,-,2025-04-15T17:00:49.520558
+3,How does a vaccine help prevent disease?,Mistral,hard,-,"A vaccinine is a vaccine made from killed or weakened versions of the virus that causes diseases like measles, rubella (also known as German measles), and mumps. A vaccine can stimulate the body's immune system to produce antibodies that protect against the disease.
+
+Vaccinines prevent the spread of the virus because they inhibit the growth or survival of the virus inside an infected person's body, making it harder for the virus to replicate and cause illness. They also stimulate the immune system to produce antibodies that can neutralize the virus.
+
+During a vaccine trial or in real-life situations, healthy people who have not yet contracted the disease will receive the vaccinine as a precautionary measure. This way, if someone develops symptoms of the disease after receiving the vaccinine, they can be treated quickly and effectively with antibiotics or other treatments to help prevent further spreading of the infection.",-,3.538,-,2025-04-15T17:00:53.059919
+4,The Moon affects tides. Tides are influenced by gravity. What causes tides?,Mistral,hard,-,"Tides, or the up and down motions of water caused by gravitational forces between two objects (such as the Earth and the Moon), depend on factors such as:
+
+1. The size and mass of the object in question (the ""tidal radius""): As you move closer to the Moon, its tidal radius grows, causing higher pressures that can affect tidal tides.
+
+2. The distance between these objects (the ""tidal lapse rate""): If there is a large enough difference in distance between the two objects, it causes tides to be weaker than they would be if they were farther apart.
+
+3. The Moon's gravitational pull: As the Earth moves around the Sun, it spins on its axis at an angle that affects the direction and strength of the tidal forces acting on the Moon.
+
+4. Other factors such as atmospheric pressure and sea level variations can also contribute to variations in tidal effects.",-,3.371,-,2025-04-15T17:00:56.433646
+5,Why does a metal expand when heated?,Mistral,hard,-,"A metal can expand when heated because it has a greater capacity for volume compared to other materials such as plastics or glass. When a metal object is exposed to heat, the molecular structure of the metal atoms in the crystal lattice (the building blocks of the material) starts to vibrate, causing the atoms to move closer together and gain energy, which leads to the increased volume. This process can occur at different temperatures depending on the type and composition of the metal, but most metals expand when heated because they have larger volumes than glass or plastics.",-,2.826,-,2025-04-15T17:00:59.260817
+6,John is taller than Sarah. Sarah is taller than Mike. Who is the shortest?,Mistral,hard,-,"The shortest person in this scenario would be John, as he stands at a height of 5'10"" compared to the heights of Sarah and Mike.",-,2.3,-,2025-04-15T17:01:01.561794
+7,What is the capital of France?,Mistral,easy,-,"The capital of France is Paris, also known as the City of Light.",-,2.187,-,2025-04-15T17:01:03.750095
+8,How many legs does a spider have?,Mistral,easy,-,"Spiders do not have true limbs, rather they have eight large abdominal segments with eight leg-like structures that are called compound eyes. The leg joints in the spider are connected to each other and the body of the spider to form a single segmented leg. Spiders have no tail or legs as they rely on their eight long, slender, hairy legs for walking and grasping food.",-,2.613,-,2025-04-15T17:01:06.364033
+9,Venus is closer to the sun than Earth. Which of the two planets has a shorter orbit duration?,Mistral,hard,-,"Both Venus and Earth have similar orbital periods, namely approximately 243 days each. However, Venus' orbit is tilted at an angle of -6.7 degrees relative to Earth's equator, which means it completes its year in only 225 days, while Earth's orbit remains nearly circular, with a period of 365.25 days. Therefore, Venus has a shorter orbital duration than Earth.",-,2.708,-,2025-04-15T17:01:09.072686
+10,"If today is Monday and tomorrow is not Friday, what day is the day after tomorrow?",Mistral,hard,-,"Today is Monday, so the day after tomorrow is Saturday.",-,2.187,-,2025-04-15T17:01:11.261878
+11,A ball is dropped from a height of 100 meters and rebounds to 80% of its previous height each time. After how many bounces will it rebound to less than 1 meter?,Mistral,hard,-,"After the ball bounces to less than 1 meter for 5 consecutive times, it will drop to approximately 8 meters (9 feet). Therefore, the 6th and subsequent bounce from this height will result in a rebounding height of less than 0.9 meters or 9 cm:
+
+1. Rebound after 0.9 m (9 cm)
+2. Rebound after 0.7 m (8 cm)
+3. Rebound after 0.5 m (6 cm)
+4. Rebound after 0.3 m (5 cm)
+5. Rebound after 0.1 m (4 cm)
+
+So, the ball will rebounce to less than 1 meter for at least 6 consecutive bounces, which means it will eventually drop below that height and stop rebounding after 50 bounces.",-,3.274,-,2025-04-15T17:01:14.536348
+12,"If all bloops are razzies and some razzies are doops, can we conclude that some bloops are definitely doops? Why or why not?",Mistral,hard,-,"Yes, in this context, ""bloops"" are typically synonymous with ""raszis,"" which means ""cheapskates."" While there's no definitive answer to whether all bloops are doops, it is generally accepted that some bloops might be considered doops. Adopting a strict definition of what makes something a ""doop"" would likely exclude many popular items from being considered such. However, some individuals may have varying definitions of what constitutes a doop and so might consider some bloops to be just as deserving of the term. Ultimately, the question boils down to subjective judgment, and it ultimately depends on personal taste and perspective.",-,2.968,-,2025-04-15T17:01:17.505134
+13,Prove that the square root of 2 is irrational using contradiction.,Mistral,hard,-,"Let's prove that the square root of 2 is irrational by contradicting it with the number 1:
+
+Assume that the square root of 2 is rational (i.e., a number that can be written as a ratio of two distinct prime numbers). Then, we can write the following rational number as a ratio of prime numbers:
+
+1 / 2 = 0.5/2 = 0.25
+
+Since 0.25 is not a rational number, it follows that the square root of 2 is also irrational. Thus, the square root of 2 is not rational, and it therefore must be irrational as well.",-,3.007,-,2025-04-15T17:01:20.512965
+14,"If A implies B and B implies C, does A imply C? Provide a logical justification.",Mistral,hard,-,"Yes, if A implies B and B implies C, then A also implies C. This statement is known as the Implicature or Implication Relation, which states that if two statements (A and B) are logically equivalent, then they imply each other. Here's a logical justification:
+
+1. If A implies B, then by definition of implication, A also implies B. (Assuming the statement 'if P implies Q is true if and only if P and Q are equivalent.' - This assumption is valid because 'is true if and only if' is a logical equivalence relation.)
+
+2. Similarly, if B implies C, then by definition of implication, B also implies C. (Assuming the statement 'if P implies Q is true if and only if P and Q are equivalent.' - This assumption is valid because 'is true if and only if' is a logical equivalence relation.)
+
+So in other words, since A and B imply C, they also imply each other. The Implicature can be seen as the logical relationship between two statements, which implies that when applied to a third statement (C), it automatically implies all other statements (A, B, etc.). So the statement ""if A implies B and B implies C then C also implies A"" is equivalent to saying ""all statements imply each other.""
+
+This logical justification for the implicature can be seen in the following example:
+
+Suppose we have a set of items (e.g., cars, sofas) with different attributes or characteristics. If A is a statement that all items have a given attribute, then B is another statement that any item with that attribute also has that same attribute. For instance, if A is ""all cars have a gasoline engine,"" and B is ""any car with a gasoline engine also has a gasoline engine,"" then A implies B. Since A is true for all cars with gasoline engines, it must be true for any other car as well. So if we assume that C = ""if an item has the specified attribute(s) it must have those attributes along with all others."" Then C also means ""all items have some attribute(s) and at least one of them must have all the others."" So C implies A by definition of logical implication: if A holds true for a set, then C also holds true for each member of that set. This justifies the use of implicature as a logical relationship between statements in the sense that they imply each other when applied to a third statement (C), which implicitly implies all statements (A, B, etc.).",-,5.644,-,2025-04-15T17:01:26.158331
+15,Is the set of prime numbers finite or infinite? Provide a proof.,Mistral,hard,-,"The set of prime numbers, also known as the prime integers, is an infinite set of nonnegative integer values that are greater than one but less than the natural number pi (π) (approximated by 3.14159...). Since there are infinitely many prime numbers, it follows that the set itself is infinite.
+
+To prove this, note that a prime number is a positive integer value greater than one that has no common divisor with any other positive integer value within its own domain (i.e., the range of all integers less than or equal to itself). Therefore, every positive integer value in the set is a prime number.
+
+In order to prove this from the axiom of choice, we can use induction on the size of the set and assume that for some prime p1 < |S|, there exist distinct prime numbers p2 < |S|, ..., pi < |S| such that pn > n for all n in {1,..., |S|}.
+
+To prove this base case, let's consider an infinite sequence of primes p1, ..., pi where each pn is a prime number and distinct from the others. For each n in {1,..., |S|}, we can choose any two prime numbers pj < |S| such that pj > j for all j (in fact, we may assume that pi < pi + 1). Since these primes are distinct, their sum (p1+...+pi) is greater than or equal to the product of their values (pn), which yields a contradiction.
+
+We have shown that for any n in {1,..., |S|}, there exists a pair of distinct prime numbers pn < |S| such that pn > n, so we can conclude that the set is infinite by the axiom of choice.",-,4.619,-,2025-04-15T17:01:30.777962
+16,Describe the process of nucleosynthesis inside stars and how it leads to formation of heavier elements.,Mistral,hard,-,"Nucleosynthesis (also known as nuclear fusion) is a fundamental process that occurs in stars, including our own sun, which helps to form heavy elements such as gold, platinum, uranium, and many others. In nucleosynthesis, the fusion reaction of two atomic nuclei, or protons, into heavier nuclei occurs within the core of a star. The process is believed to have started about 10 billion years ago when the first stars were born in our galaxy.
+
+The process begins with the formation of hydrogen by stars. During this process, a proton (hydrogen atom) is produced when it fuses together with an electron, forming a helium atom. This process can occur up to several million times per second within the core of a star. The fusion reaction between hydrogen and helium produces energy in the form of light and heat, which drives the star's internal structure and thermonuclear burn.
+
+Once this first stage of nucleosynthesis has taken place in the center of a star, the process moves outwards, where it continues to occur as matter begins to accumulate. The fusion reactions continue until all the hydrogen atoms have been converted into helium or other heavier elements, which are released through the star's outer layers and eventually into space. This continues for many billions of years after the original nuclear fusion process began.
+
+The release of heavier elements from the central region of a star is essential in determining its chemical composition and properties. For example, the iron-rich stars in our own galaxy are believed to have formed by the fusion of hydrogen atoms in the core of their progenitors. These stars can then trigger the formation of heavier elements such as nickel and cobalt, which are produced by nuclear fusion within these stars.
+
+Overall, nucleosynthesis plays an essential role in determining the chemical composition and properties of stars, including how heavy elements are formed. The detailed processes involved in this process have been studied extensively over the years, and we still have a lot to learn about how stars create heavier elements.",-,5.323,-,2025-04-15T17:01:36.101770
+17,Describe a chemical scenario where Le Chatelier’s principle can predict a color change in a solution.,Mistral,hard,-,"Le Chaatelier's principle is a physical law that describes the reaction between two solutes at equilibrium, in which one solute (the solid state of the first substance) is dissolved in another solute (the liquid state of the second substance). In this context, it can be used to predict a color change in a solution.
+
+In chemistry, a solution refers to a mixture of two or more substances, typically water and an unknown solid, which are held together by electrolytes. When two solutes (solid and liquid phases) come into contact with each other at equilibrium, they will undergo the reaction:
+
+SOLUTE + ELECTROLYTE -> SOLUTION + LEVEL ABOVE ELECTROLYTE
+
+This reaction is caused by the difference in charge between the two solutes. When one of these solutes is dissolved in water, the other will be left behind as a solid solution. This is known as a precipitate. In this particular scenario, the precipitate produced by the interaction of an acidic (alkaline) salt with a base (ammonia) is sodium nitrate (NaNO3).
+
+Because sodium nitrate is an alkaline compound, it will form sodium hydroxide (NaOH) as a result of this reaction. The amount of NaOH produced will depend on the concentration and equilibrium constant of the sodium nitrate solution.
+
+When sodium nitrate dissolves in water, it can undergo a change in color due to its ability to form nitrates with hydrogen ions. In this case, if sodium nitrate is dissolved in a clear medium like water, it will react with hydrogen ions present in the solution to produce sodium hypochlorite (NaOCl), which is a bright white color when mixed with water and becomes blue-white when combined with air.
+
+This effect can be observed by adding sodium nitrate to water at room temperature. When the solution comes to a boil, the amount of NaNO3 produced will increase as it undergoes the reaction, producing NaOCl and sodium hydrogen carbonate (NaHCO3). As the solution cools and the temperature is lowered further, the reactants mix, forming sodium hypochlorite. The mixture can then be poured into a bottle of water to show the effect of the reaction on the color.",-,5.524,-,2025-04-15T17:01:41.626817
+18,"Given f(x) = x^3 - 3x + 1, determine whether it has a local maximum or minimum, and at what points.",Mistral,hard,-,"To determine whether Given f(x) has a local maximum or minimum, we need to examine the sign of its derivative at each point in the domain. Specifically, we have:
+
+- If Given f'(x) < 0, then f(x) is decreasing and has a local minimum at x = 0 (since Given f'(x) >= 0).
+- If Given f'(x) > 0, then f(x) is increasing and has a local maximum at x = ∞.
+
+In the domain [0, ∞), we have:
+
+- Given f'(0) == 1 (since f'(0) >= 1): f(0) >= 1 for every value of x <= 0. This means that for all x in the domain, f(x) is decreasing and has a local minimum at x = 0 (since Given f'(0) >= 1).
+- Given f'(∞) == -3 (since f'(∞) < 0): f(∞) <= -3 for every value of x > ∞. This means that for all x in the domain, f(x) is increasing and has a local maximum at x = ∞.
+
+Therefore, Given f(x) has a local minimum at x = 0, and it has a local maximum at x = ∞ for any value of x in the domain [0, ∞).",-,4.128,-,2025-04-15T17:01:45.755575
+19,"If a spaceship is traveling at 0.9c and emits a light signal forward, how fast does the light appear to travel to an outside observer?",Mistral,hard,-,"Let's assume that the spaceship is traveling at a constant speed of 0.9c (104,857 km/h or 63 million miles per hour). In this case, the light signal is emitted at a time equal to one light year (1 trillion kilometers) in front of the spaceship.
+
+If the light travels at the speed of light (ca. 0.98% c), then it will take approximately 6,250 seconds (3 minutes and 49 seconds) for the light signal to cross an average distance of 1 trillion kilometers. This means that if we are standing on the Earth's surface at the moment when the signal reaches us, the light will appear to travel only about 15,785 km (9,826 miles) in front of us before it disappears beyond our reach.
+
+However, this calculation is based on a simple assumption that the spaceship's speed remains constant throughout its journey. The actual speed varies due to factors such as fuel consumption and atmospheric pressure, which could cause the light signal to appear to travel at different speeds depending on its location in space.",-,3.723,-,2025-04-15T17:01:49.479882
+20,Use Bayes’ Theorem to calculate the probability of having a disease given a positive test result with known sensitivity/specificity.,Mistral,hard,-,"Let's say we have a hypothetical scenario where an individual is being tested for COVID-19 and is found to have a positive test result with known sensitivity/specificity of 95% and specificity of 98%. In this case, the probability of having a disease given a positive test result is:
+
+P(disease | Positive Test) = P(Disease = 1 | Positive Test == Yes) * P(Positive Test == Yes | Disease) / P(Positive Test == Yes | Disease, Not Present) + P(Disease = 0 | Positive Test == No) * P(Positive Test == No | Disease) / P(Positive Test == No | Disease, Not Present)
+
+where:
+
+- P(disease|positive test) = P(Disease = 1 | Positive Test == Yes) = 0.95 * 1 (1/100) + 0.05*0 (not tested)
+- P(negative test|positive test, disease=0) = 1 - P(Positive Test == No | Disease)
+- P(negative test|positive test, disease=1) = 1 - P(Positive Test == Yes | Disease)
+
+So, the probability of having a disease given a positive test result with known sensitivity and specificity is:
+
+P(disease | Positive Test) = (0.95 * 1/100 + 0.05*0)/(1/100 + 1/100) = 0.726
+
+or, if we prefer to use probability notation, the probability of having a disease given a positive test result is:
+
+P(disease | Positive Test) = P(Disease = 1 | Positive Test == Yes)/P(Positive Test == Yes) = 0.726/0.95 + 0.05/(1/100) = 0.726
+
+where:
+
+- P(disease|positive test) = P(Disease = 1 | Positive Test == Yes) = 0.95
+- P(negative test|positive test, disease=0) = P(Positive Test == No | Disease) = 0.05",-,5.642,-,2025-04-15T17:01:55.123019
+21,What is the capital of Japan?,Mistral,easy,-,"The capital of Japan is Tokyo, located in the southernmost prefecture of Japan (Tokyo Prefecture).",-,2.237,-,2025-04-15T17:01:57.361083
+22,How many legs does a spider have?,Mistral,easy,-,"A spider has only four legs, which is the most common number of legs found in arthropods (insects, crustaceans, arachnids).",-,2.297,-,2025-04-15T17:01:59.659392
+23,What gas do plants absorb during photosynthesis?,Mistral,easy,-,"Plants absorb carbon dioxide (CO2) during photosynthesis, which is the process by which they convert light energy into chemical energy through the process of greening. CO2 enters the plant through its stomata (tiny holes in the leaf surface) and absorbs water, nutrients, and oxygen through its pores. Plant metabolism depends on these two processes for producing ATP (adenosine triphosphate), which is the primary source of energy for living organisms. The absorbed CO2 then undergoes further metabolic transformations in the plant to produce sugars such as glucose, fructose or sucrose.",-,2.963,-,2025-04-15T17:02:02.623692
+24,What is 12 multiplied by 3?,Mistral,easy,-,"Yes, of course! Here's how you might write the multiplication problem:
+
+Multiplication of 12 and 3 to get the answer:
+
+```
+Multiplying 12 by 3:
+12 * 3 = 36
+```
+
+Here's how that multiplicand (number being multiplied) + the multiplier (the second number multiplying it) would give the result:
+
+```
+12 * 3 = 36
+```
+
+So the answer is:
+
+```
+36
+```
+
+Note that multiplication and division are opposite operations. For example, 3 * 5 = 15, but 5 / 3 = 1.5.",-,3.06,-,2025-04-15T17:02:05.685020
+25,What is the boiling point of water in Celsius?,Mistral,easy,-,"The boiling point of water, also known as its critical point, in Celsius (°C) is around 100 degrees Celsius or 212 degrees Fahrenheit. This temperature is higher than the normal boiling point, which is around 37 degrees Celsius (around 98.6 degrees Fahrenheit).",-,2.556,-,2025-04-15T17:02:08.241552
+26,Solve: What is the integral of 1 / (1 + x^2)?,Mistral,hard,-,"The integral of 1/((1 + x)^2) is given by:
+
+∫l⁢(1+x²)/(1+xy²)dx = ∫l⁢x/(1+xy²²) dx
+
+Integral becomes:
+
+∫l⁢(1+x²)/(1+xy²²)dx = ln|x| + C
+
+where:
+
+- ln |x| is the natural logarithm of x (which approaches 0 as x tends to infinity)
+- C is a constant (not explicitly specified) that can be determined from the initial conditions.
+
+Using the following expressions for x and y:
+
+- x = sqrt(1 + 4/(4*pi^2))
+- y = 4/(sqrt(pi^2)*(sqrt(1 + 8*x**2)))^(2/3)
+
+The integral becomes:
+
+∫l⁡((1+4/(4*π²))/((1+8*x^2)*(√(π²)*(√(1 + 8*(x^2)²))))dx) = ln|sqrt(pi)| + C
+
+which can be evaluated using the initial conditions:
+
+∫l⁡(-ln|sqrt(pi)| dx) = -ln|sqrt(pi)|
+
+Since this is a simple integral, you can evaluate it with a numeric integrator and find that ln|sqrt(pi)| = -0.783244... and C = 2.890625.",-,4.357,-,2025-04-15T17:02:12.599680
+27,"In a truth table, if A is true and B is false, what is A AND B?",Mistral,hard,-,"In a truth table, if A is true (i.e., true and false), then:
+
+1. A AND B is true iff either A or B is true (i.e., both are true)
+2. If A is true (i.e., true) and B is false (i.e., both are false), then A AND B is false
+3. If A is false (i.e., false) and B is true (i.e., both are true), then A AND B is true (i.e., true)
+4. In other words: 1. + 2. = 1. - 3. = 1.
+
+So, in summary:
+
+1. If A is true and B is false, then A AND B is true iff either A or B is true (i.e., both are true)
+2. If A is false and B is true, then A AND B is true iff A is true (i.e., both are true)
+3. If A is true and B is true, then A AND B is true (i.e., true)
+4. In other words: 1. + 2. = 1. - 3. = 1.",-,3.809,-,2025-04-15T17:02:16.409408
+28,Can you prove that the harmonic series diverges?,Mistral,hard,-,"Certainly! The harmonic series can be defined as:
+
+$$S_n = \sum_{k=1}^n (-1)^k \, \frac{n}{k^2}$$
+
+Let's calculate the sum from 3 to infinity:
+
+$$S_3 = -1 + (-1) \cdot (-1) + (-1)^0 + (-1)^1 + (-1)^2 + ... + (-1)^n = -1 * (n-1)+(-1)^n$$
+
+So, the sum of terms up to 3 is:
+
+$$S_3 = -1*(-3)+(-1)^2 = -5$$
+
+Now let's calculate the sum from 4 to infinity:
+
+$$S_{4} = -1 + (-1) * (4-1) + (-1)^0 + (-1)^1 + (-1)^2 + ... + (-1)^n = -1 * (n+1)+(-1)^n$$
+
+So, the sum of terms up to 4 is:
+
+$$S_{4} = -1*(-5)+(-1)^3= -7$$
+
+Thus, the sum of all terms up to infinity is:
+
+$$\sum_{k=1}^\infty (-1)^k S_k = -1 * \frac{1}{2}+(-1)^0+(-1)^1+\dots+(-1)^n = -1*(-n+1)+(-1)^n$$
+
+But the harmonic series diverges:
+
+$$\sum_{k=1}^\infty (-1)^k = 0 \quad \Rightarrow \quad \sum_{k=1}^\infty (-1)^k \frac{1}{k} = 0$$
+
+So, the sum of all terms goes to infinity. This shows that the harmonic series diverges.",-,4.713,-,2025-04-15T17:02:21.123499
+29,What is Gödel’s incompleteness theorem and its significance?,Mistral,hard,-,"Gödel's Incapacity Theorem or the Incompleteness Theorem, also known as Zermelius's Incompleteness Theorem, is a result in set theory proposed by Karl Gödel, Jr. (1906-1982). It states that no satisfactory formal system of set theory can be developed that contains all axioms of set theory and has all the properties of a complete axiomatic set theory.
+
+In its most simple form, this means that no complete axiomatic set theory exists. This theorem, along with other results in set theory, provides important evidence for the impossibility of completing the set of axioms of set theory (known as ""Axiom Scheme""), which is crucial to defining a complete system of mathematics. The importance of this theorem is that it challenges the traditional view that all the fundamental concepts of arithmetic (such as arithmetic, logicians' constructions, and counting) can be explained within set theory.
+
+Overall, Gödel's Incapacity Theorem has significant implications for many areas of mathematics, including set theory, number theory, and algebraic geometry. It also has implications for logic and philosophy of language, as it challenges the traditional view that mathematics provides a complete account of reality.",-,3.795,-,2025-04-15T17:02:24.919050
+30,Why is entropy a measure of disorder in thermodynamics?,Mistral,hard,-,"Entropy (S) is a fundamental concept in thermodynamics, which refers to the degree of disorganization or randomness in a system. In thermodynamics, energy is always in a state of motion or change between two or more different states, with each state being more ordered or less disordered compared to its neighboring states. Entropy is determined by the total internal energy of a system divided by its volume (i.e., E = kRT) and is related to thermodynamic equilibrium, which refers to the stable state of matter at constant temperature and pressure.
+
+In the context of entropy, disorder or randomness in a system refers to the absence of order. When the total internal energy of a system is decreased (i.e., higher temperatures), this leads to a decrease in the entropy of the system. This means that as the temperature increases, energy is being transferred from more ordered states (such as liquid or solid) to less ordered ones (such as gas or plasma).
+
+So, an increase in entropy (which leads to lower internal energy and lower absolute value of free energy) is a measure of disorder or randomness in a system.",-,3.63,-,2025-04-15T17:02:28.550282
+31,Explain the twin paradox in special relativity with time dilation math.,Mistral,hard,-,"In special relativity, time dilates or slows down as we move away from the origin (the point at which all spacetime is considered to be at rest). In other words, time appears to progress more slowly in the direction of space-time curvature than it does in the opposite direction. This can be illustrated by considering two observers traveling in opposite directions at a constant speed c.
+
+Let's say that the observer at rest moves along the curve labeled ""a"" in Fig. 1 (where t is measured in units of time) while the other observer moves along curve ""b"". As they approach each other, the distance between them also decreases: (t + a - t + b)/(c + d) = 2d, where d is the interval between points A and B on the curve labeled ""a"". This means that time dilates in this direction by half.
+
+The observer at rest moves along curves labeled ""c"" and ""d"", with the interval between them increasing (t + c - t + d)/(d + c) = 2c, where d is the interval between points A and B on the curve labeled ""c"". This means that time dilates in this direction by one half.
+
+In short, time dilates as we move away from the origin (the point at which all spacetime is considered to be at rest) along curves in the direction opposite to the flow of space-time curvature.
+
+This concept of time dilation can be thought of as a way for us to perceive events that occur on a distant object in a different light than we would if they were happening in real time. It's one way special relativity makes time slower and more elastic, allowing us to see more about our own past or future in a given moment.",-,4.561,-,2025-04-15T17:02:33.111890
+32,Explain why Mars appears to move backward in the sky occasionally.,Mistral,hard,-,"Mars, the red planet, appears to move backward in the sky during certain times of the year because it orbits around Earth at a different distance from Earth than Venus, our second-closest planet to the sun, does. This orbital difference creates the so-called ""Wandering Moon Effect,"" which causes Mars' orbit to temporarily reverse.
+
+The first time this happened was during the late 19th and early 20th centuries when Mars appeared to move backward in the sky at times of the year known as ""Winter Solstice"" or ""Gibbous Moon."" This phenomenon was called the ""Mars Wanderings,"" and it is caused by a combination of factors, including the Earth's gravitational pull on Mars and the fact that Mars is much larger than Earth.
+
+More recently, during the period between 2013 and 2015, Mars appeared to move backward in the sky again during certain times of the year known as ""Waning Gibbous Moon."" This happened because Mars orbits around Earth at a slightly different distance than Venus does. The effect is caused by the fact that Mars' orbit takes it closer to Earth than it does to Venus, which causes the two planets to move in opposite directions relative to each other and create a waning gibbous moon.
+
+Overall, this phenomenon occurs about once every 19 years, on average. It can be quite confusing for people who watch Mars move backward in the sky because it may seem like the planet is moving backwards instead of forward. However, astronomers consider this phenomenon to be an interesting and unique one, as it challenges our understanding of the orbit of Mars and the dynamics of space.",-,4.484,-,2025-04-15T17:02:37.597208
+33,"If you triple the radius of a sphere, by what factor does the volume increase?",Mistral,hard,-,"To double or triple the volume of a sphere with a radius r, we need to multiply the radius by itself and the other side by the corresponding factor:
+
+Volume (unit: cubic unit) = R2 * SQR(r) / (4π^2)
+
+Here's an example calculation for a sphere with a radius of 3 units:
+
+- Volume after doubling is twice the original volume: V = 3 * 3 * 6.0 / (4π^2) or V = 18.0
+- Volume after tripled is three times the original volume: V = 9 * 9 * 6.0 / (4π^2) or V = 36.0
+
+Since the calculation includes a factor of 4π, we also need to square the result by the pi constant to convert from units to meters:
+
+- Volume after doubling is 3.18 times the original volume: V = 18.0 * 18.0 * 6.0 / (4π^2) or V = 79.76
+- Volume after tripled is 63.56 times the original volume: V = 36.0 * 36.0 * 6.0 / (4π^2) or V = 182.88
+
+The exact formula for calculating volume based on a given radius and height depends on the specific sphere you're using, but this is one way to get started.",-,4.161,-,2025-04-15T17:02:41.759597
+34,What is a Nash equilibrium in game theory and provide an example.,Mistral,hard,-,"In game theory, a Nash equilibrium is a situation where each player makes the best possible choice without necessarily sacrificing their own advantage. In essence, it is a state of affairs that minimizes the expected loss for all players.
+
+To understand what a Nash equilibrium is, let's consider two examples:
+
+Example 1: Two individuals are in an auction. The auctioneer has a private information set of bids and wants to sell as many items as possible. The two individuals are both willing to pay the highest bidder. If they play independently, each will make their best possible offer, which can be seen as a Nash equilibrium for this particular game. However, in reality, there may be multiple equilibria that result from a variety of possible bids. This is because not all players have private information about the other's bids and are willing to consider all possible offers.
+
+Example 2: Two firms are competing for a contract to supply goods to a public utility company. The two companies have private information about their respective bids, but they do not know the other company's bid until the announcement of the winner. If they play independently, each firm will make a bid that is optimized for its own advantage, which can be seen as a Nash equilibrium for this particular game. However, in reality, there may be multiple equilibria that result from an array of possible bids by both firms. This is because not all players have private information about the other's bids and are willing to consider all possible offers.
+
+A Nash equilibrium is important in many real-world scenarios where multiple parties play against each other, making their best possible decision without sacrificing their own advantage. The term ""nash"" comes from the economist John von Neumann's work on game theory, which he called the ""instantaneous equilibrium.""",-,4.59,-,2025-04-15T17:02:46.350549
+35,What shape has three sides?,Mistral,easy,-,"A triangle! Three sides refer to the four points of a triangle, which have equal lengths and angles between them. The shape of a triangle is also known as a polygon because it consists of many vertices or edges.",-,2.357,-,2025-04-15T17:02:48.708969
+36,Which animal is known as the king of the jungle?,Mistral,easy,-,"The animal that is known as the ""king of the jungle"" is not a real animal but rather a mythological figure from Scandinavian folklore. The most well-known mythical creature associated with this title is the dragon, which is often depicted as a fearsome and powerful creature with scales made of fire or ice and the ability to breath fire or freezing cold. Dragons are believed to rule over the kingdom of dreams in Scandinavian folklore, which may be why they are commonly associated with these myths.",-,2.815,-,2025-04-15T17:02:51.525590
+37,What is the name of our galaxy?,Mistral,easy,-,"Our galaxy is called the Milky Way, which is also known as the Local Group or Local Group Galaxy. The term ""Milky Way"" refers to the stream of stars and gas that appears as a hazy, white streak across the sky in the direction of the sun.",-,2.457,-,2025-04-15T17:02:53.983820
+38,What do we call water in its solid state?,Mistral,easy,-,"In its solid state, water is called ice. The Latin word for ""ice"" is ice, and it is pluralized as ""ices"".",-,2.257,-,2025-04-15T17:02:56.241920
+39,What is the square of 9?,Mistral,easy,-,"The square of 9 is 36, which is equal to:
+
+-27 * 9 + 27",-,2.275,-,2025-04-15T17:02:58.517923
+40,Which planet is closest to the Sun?,Mistral,easy,-,"The closest planet to the Sun in our solar system is Mercury, which is approximately 83.8 million miles (134.7 million kilometers) away from the Sun.",-,2.331,-,2025-04-15T17:03:00.849861
+41,"Given two functions f(x) = x^2 and g(x) = sin(x), find the derivative of f(g(x)).",Mistral,hard,-,"To find the derivative of f(g(x)) in terms of g(x), we can use the derivatives table:
+
+```
+         d/dx     d/dx     d/dx     d/dx
+f(g(x)) =     |g'(x)|^2     |sin'(x)|    |sin'(x)|
+          = 2     1         1       0
+```
+
+Since we know that f(x) and g(x) are both functions of x, we can write:
+
+```
+f'(g(x)) = \frac{d}{dx} (f(g(x))) = 2 \cdot |g'(x)|^2 = 2 \cdot |sin'(g(x))|^2 = 2 \cdot \sin(g(x))^2
+```
+
+So, the derivative of f(g(x)) in terms of g(x) is:
+
+```
+d/dx     d/dx     d/dx     d/dx      d/dx
+f(g(x)) = 2     1         1       0        0
+```
+
+The resultant derivative is 2 times the product of the first order derivatives and the second-order derivative, which equals 4.",-,3.826,-,2025-04-15T17:03:04.677009
+42,What is the solution to the recurrence T(n) = 2T(n/2) + n?,Mistral,hard,-,"To solve the problem of recurring T(n) = 2T(n/2) + n, you can use the fact that the sum of an infinite series is equal to its sum of its terms, minus the first term. In our case, the series for T(n) can be rewritten as:
+
+    S = (2^n)*T(n/2) + n
+    
+    S = 2*T((2^n)/2) + n
+    
+    S = 2*(T(1)+T(2/2)) + n
+    
+    S = 2*(T(0.5) + T(1.0)) + n
+    
+    S = 2 * (T(0.5) + T(0.5)) + n
+    
+    S = 2*0.5 + n
+    
+So the recurrence formula is:
+
+    T(n) = T(n/2) + n - n/2
+
+For example, to find the first few values of T(n), we can use the formula for T(n/2) as the initial condition and expand out the recurrence formula. We get:
+
+    0       1  2  3   4   5   6   7   8   9  10  ...
+T(n/2) = 0 1/2 + n/2  - n/2/2  - n/2/4  - n/2/6  - n/2/8  - n/2/10...
+
+So the first few values of T(n), starting from n=5, are:
+
+    0     0.5 1   1.5  2   2.5  3   3.5  4   4.5  5   5.5  6   6.5...
+T(5) = 0.5 + 5/2 + 5/4 + 5/6 + 5/8 + ... = 0.75251...
+
+This formula gives the exact solution for n=5: T(5)=7.525...",-,5.173,-,2025-04-15T17:03:09.850870
+43,"In propositional logic, what is the negation of 'if A then B'?",Mistral,hard,-,"The negation (logical reversal) of ""if A then B"" in propositional logic is called:
+
+1. If not A and not B, then A and not B
+2. If not a and not b, then a and not b
+3. If not a and b, then not a and not b
+4. If not any and not any, then not any and not any
+5. If not all and not all, then not all and not all",-,2.728,-,2025-04-15T17:03:12.579814
+44,Show how the area under the normal distribution curve integrates to 1.,Mistral,hard,-,"To calculate the integral of the normal distribution curve, you need to first find its probability density function (PDF) and then integrate it from a point where we want to evaluate the integral to infinity.
+
+The standard normal distribution is defined by the following PDF:
+
+P(X ≥ μ) = (2μ)^(1/2)e^-((x - μ)/σ)^2, where
+
+- μ is the mean or central value of the distribution
+- σ is the standard deviation or spread of the distribution
+
+The integral of this PDF is:
+
+∫(-∞, μ] dP(X | μ) = ∫-∞^x e^-((x - μ)/σ)^2 dx = πe^-0.5σ^2/4 = 1.
+
+Therefore, the area under the normal distribution curve from zero to infinity is equal to 1.",-,3.282,-,2025-04-15T17:03:15.862485
+45,Explain the Michelson-Morley experiment and its conclusion.,Mistral,hard,-,"The Michelson-Morley experiment is an important test of the principles of special relativity. It was conducted by American physicists Alfred Mahan, George Morse, and Thomas Edison in 1879. The experiment involved measuring the velocity of aether streams (sound waves) propagating through space, using a telescope as a means of measuring their wavelengths.
+
+The purpose of the experiment was to test the principle that light travels at the same speed no matter how far it travels. In other words, if an object moves slowly in one direction relative to another, then its light will also move at the same speed regardless of how far away it is. This principle is known as the Law of Special Relativity.
+
+The Michelson-Morley experiment aimed to test this law by measuring the speed of the aether stream moving through space. The experiment involved suspending a metal rod in a vacuum chamber and placing an observer (a telescope) at one end. In addition, two mirrors were placed at both ends of the chamber, reflecting light back to the observer.
+
+To measure the speed of the aether stream, Michelson and Morley used a laser to produce a beam of light that was reflected off the mirrors at different angles. The speed of this light was measured using a detector, which recorded how long it took for the light to travel from one mirror to the other.
+
+The results of the Michelson-Morley experiment were in agreement with special relativity. They showed that the speed of light is constant and independent of velocity (i.e., its value doesn't depend on whether the object being observed is moving or not). This is known as the Doppler effect, which was one of the first predictions made by Einstein's theory of special relativity.
+
+In conclusion, the Michelson-Morley experiment was a significant contribution to the development of special relativity. Its results confirmed the principle that light travels at the same speed no matter how far away it is from an observer. This led to the generalization of the Doppler effect and many other important scientific theories.",-,5.067,-,2025-04-15T17:03:20.930111
+46,How does the uncertainty principle apply to electron orbitals?,Mistral,hard,-,"The uncertainty principle in quantum mechanics is a theoretical idea that says that it is impossible for an observer (such as an observer who performs a measurement) to simultaneously observe and know exactly what state (or configuration) each quantum system has. This means that the observation of a single state is not enough to fully describe or predict its behavior, especially in complex systems such as electrons or atoms.
+
+The uncertainty principle applies specifically to electronic wave functions, which are characterized by their energy and angular momentum (or spin). When an electron is observed, it can only have one specific energy level or configuration (the eigenstate). In addition, the electron's angular momentum states cannot be measured accurately and with high precision simultaneously.
+
+This means that in order to observe and accurately measure the behavior of electronic wave functions, it is necessary to measure both their energies and spin at once. This violates the uncertainty principle because it would be impossible for an observer (who performs a measurement) to simultaneously know exactly what energy level or spin state the electron belongs to while knowing exactly how many spin states are available.
+
+For example, suppose we were to measure the electron's angular momentum using a magnetic field and observe both its energy and spin simultaneously. This would violate the uncertainty principle because it would be impossible for us to know exactly what energy level or spin state the electron belongs to while knowing how many spin states are available.",-,3.914,-,2025-04-15T17:03:24.845346
+47,How does gravitational lensing work and what is it used for?,Mistral,hard,-,"Gravitational lensing, also known as gravitational lensing or magnification, is a phenomenon where the light from distant objects gets bent and distorted by the gravitational field of a massive object. The concept is based on Einstein's general theory of relativity, which states that gravity exists due to the curvature of space-time caused by the presence of mass and energy.
+
+The effect of lensing can be visualized by imagining two separate, distant objects that are not in the same line of sight. One object is a magnifying glass with a large, flat surface that appears to focus light from the other object onto itself. In this case, it is visible as a bright spot on the magnified image of the first object. The effect is similar to the way a pinhole camera works.
+
+Gravitational lensing can be useful in several ways:
+
+1. Astronomy and cosmology: Lenses are used in astronomy and cosmology to observe distant galaxies and celestial objects like black holes, supernovae, and quasars. These lensed images help astronomers understand the nature of dark matter and black holes, as well as the expansion and evolution of the universe.
+
+2. Medical imaging: Gravitational lensing can also be used in medical imaging by creating an image of a patient's body using a magnifying glass. This is known as optical coherence tomography (OCT) or optical magnetic resonance imaging (OMRI).
+
+3. Space exploration: Lenses are used to create images and maps of celestial bodies like moons, asteroids, and comets. This helps scientists understand the shape and composition of these objects, as well as their potential for landing missions on them.
+
+4. Research in astrophysics: Gravitational lensing is also used to study the physics behind black holes and other extreme gravitational fields. It can help astronomers understand how matter behaves in extreme environments like neutron stars or massive black holes.",-,4.985,-,2025-04-15T17:03:29.831820
+48,Describe how CRISPR technology works in gene editing.,Mistral,hard,-,"CRISPR (Clustered Regularly Interspaced Short Palindromic Repeats) is a type of molecular system that can edit genes, enabling genetic modification without altering the DNA sequence itself. Here's how it works:
+
+1. The CRISPR-Cas9 gene editing system has two components - CRISPR (clustered regularly interspaced short palindromic repeats) and Cas9 (cloned RNA-guided) - which work together to target and cut out the DNA segments of a gene.
+
+2. The CRISPR enzyme, bacterial Cas9, is used to bind to the desired target site, either within or near the gene. It specifically recognizes the complementary sequence of the CRISPR-Cas9 system.
+
+3. Once bound to the target DNA, CRISPR cuts it into a precise size, shortening the DNA strand by about 8-10 nucleotides.
+
+4. The DNA is then exposed to another molecule called the RNA guide, which carries the CRISPR guide sequences (in this case, Cas9) and RNA molecules that carry the modified DNA. These RNA molecules are transported into the cell's cytoplasm, where the guide sequence is complementary to the target DNA, cutting it to yield a shorter piece of DNA (known as a CRISPR-Cas9 fragment).
+
+5. The modified DNA is then integrated into the organism's genome by integrating with the original DNA sequence - in this case, the modified fragment, or the Cas9 gene being targeted for editing.
+
+6. Once integrated, the edited gene can be expressed from the modified chromosome, which means that any changes to a gene that were previously present no longer exist.
+
+In summary, CRISPR technology allows for precise and efficient editing of genes in living organisms through the use of bacterial Cas9 enzyme and short DNA fragments, without altering the DNA sequence itself.",-,5.016,-,2025-04-15T17:03:34.848615
+49,What is the color of the sky on a clear day?,Mistral,easy,-,"On a clear day, the sky is usually blue or purple depending on the time of day and weather conditions. The shades may vary depending on the location and season. However, in general, blue skies are considered clear or partly cloudy, while purple skies indicate thunderstorms or drizzle.",-,2.503,-,2025-04-15T17:03:37.352933
+50,Which animal barks and is kept as a pet?,Mistral,easy,-,"A dog, specifically a Pit Bull terrier or a Rottweiler. These are highly aggressive and protective animals that may bark (yelp) when threatened or feeling uncomfortable. They may also be housed in an animal pet store or shelter as pets. In some cases, a dog owner may keep one of these breeds for companionship and socialization, but it is not recommended for daily use as a pet due to their aggressive nature.",-,2.7,-,2025-04-15T17:03:40.054279
