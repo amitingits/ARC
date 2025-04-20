@@ -72,7 +72,7 @@ Some other factors can influence the color of the sunset, such as:
 * Cloud cover: Clouds can reflect and scatter light, affecting the color of the sunset.
 * Angle of the sun: The sun's angle and position can influence the amount of scattering that occurs.
 
-In summary, the sky appears blue during the day due to Rayleigh scattering of shorter wavelengths, while the sky appears red during sunset due to the scattering away of shorter wavelengths and the dominance of longer wavelengths.",498,10.0,-,2025-04-15T17:08:17.979718
+In summary, the sky appears blue during the day due to Rayleigh scattering of shorter wavelengths, while the sky appears red during sunset due to the scattering away of shorter wavelengths and the dominance of longer wavelengths.",498,10,-,2025-04-15T17:08:17.979718
 6,What shape has four equal sides?,Scout,easy,-,"The shape that has four equal sides is called a square. In a square, all four sides are of equal length, and all internal angles are right angles (90 degrees). 
 
 However, it's worth noting that a rhombus also has four equal sides, but its internal angles are not necessarily right angles. So, while all squares are rhombuses, not all rhombuses are squares.",94,3.793,-,2025-04-15T17:08:21.773531
@@ -477,9 +477,71 @@ Then, we can conclude:
 Some A are C
 
 In other words, since some A are B, and all B are C, it logically follows that at least some A must also be C. However, we cannot conclude that all A are C, or that most A are C. We can only say that there is an overlap between A and C, and that some A are indeed C.",136,4.462,-,2025-04-15T17:14:00.321109
-45,Marie Curie discovered two elements. One is polonium. What is the atomic number of the other?,Scout,hard,-,-,-,-,'choices',2025-04-15T17:14:01.030639
-46,Prove that the sum of the first n odd numbers is n squared.,Scout,hard,-,-,-,-,'choices',2025-04-15T17:14:01.777098
-47,What causes seasons on Earth?,Scout,hard,-,-,-,-,'choices',2025-04-15T17:14:02.455287
-48,"If f(x) = x^3, what is the second derivative?",Scout,hard,-,-,-,-,'choices',2025-04-15T17:14:03.149761
-49,What is the freezing point of water in Celsius?,Scout,easy,-,-,-,-,'choices',2025-04-15T17:14:03.853779
-50,Name the largest planet in our solar system.,Scout,easy,-,-,-,-,'choices',2025-04-15T17:14:05.019783
+45,Marie Curie discovered two elements. One is polonium. What is the atomic number of the other?,Scout,hard,-,The other element discovered by Marie Curie is radium. The atomic number of radium is 88.,52,2.32,-,2025-04-15T17:14:01.030639
+46,Prove that the sum of the first n odd numbers is n squared.,Scout,hard,-,"The first n odd numbers can be represented as:
+
+1, 3, 5, ..., 2n - 1
+
+We can prove that the sum of these numbers is n^2 using mathematical induction.
+
+**Base case:**
+Let's start with n = 1. The first odd number is 1, and 1^2 = 1. So, the statement is true for n = 1.
+
+**Inductive step:**
+Assume that the statement is true for some positive integer k, i.e.,
+
+1 + 3 + 5 + ... + (2k - 1) = k^2
+
+Now, we need to prove that the statement is true for k + 1, i.e.,
+
+1 + 3 + 5 + ... + (2k - 1) + (2(k+1) - 1) = (k+1)^2
+
+We can rewrite the left-hand side as:
+
+k^2 + (2(k+1) - 1)
+= k^2 + (2k + 2 - 1)
+= k^2 + 2k + 1
+= (k + 1)^2
+
+Therefore, the statement is true for k + 1.
+
+**Conclusion:**
+By mathematical induction, we have proven that the sum of the first n odd numbers is n^2 for all positive integers n.
+
+Alternatively, we can also prove this using algebraic manipulation:
+
+The sum of the first n odd numbers can be written as:
+
+1 + 3 + 5 + ... + (2n - 1)
+
+= (1 + 2n - 1) + (3 + 2n - 3) + ... + (2n - 1 + 2 - 2n + 2)
+= 2n + 2n + ... + 2n (n terms)
+= 2n * n / 2 (sum of n terms of 2n, divided by 2 to account for double counting)
+= n^2
+
+This proof is more direct, but the inductive proof provides a more rigorous and formal demonstration.",462,7.325,-,2025-04-15T17:14:01.777098
+47,What causes seasons on Earth?,Scout,hard,-,"The primary cause of seasons on Earth is the tilt of our planet's axis, which is approximately 23.5 degrees. This tilt causes the amount of sunlight that reaches the Earth's surface to vary throughout the year, resulting in changes in temperature and weather patterns.
+
+Here's a more detailed explanation:
+
+1. **Earth's axis tilt**: The Earth's axis is tilted at an angle of about 23.5 degrees relative to the plane of its orbit around the Sun. This means that, as the Earth orbits the Sun, different parts of the planet receive varying amounts of sunlight throughout the year.
+2. **Sun's rays angle**: When the Northern Hemisphere is tilted towards the Sun, the Sun's rays hit the Earth directly, resulting in more concentrated sunlight and longer days. Conversely, when the Northern Hemisphere is tilted away from the Sun, the Sun's rays hit the Earth at an angle, resulting in less concentrated sunlight and shorter days.
+3. **Seasonal changes**: As the Earth orbits the Sun, the tilt of its axis causes the following seasonal changes:
+	* **Summer**: When the Northern Hemisphere is tilted towards the Sun (June 20/21), it receives more sunlight, resulting in longer days and warmer temperatures.
+	* **Winter**: When the Northern Hemisphere is tilted away from the Sun (December 21/22), it receives less sunlight, resulting in shorter days and colder temperatures.
+	* **Spring** and **Autumn**: As the Earth continues its orbit, the Northern Hemisphere gradually tilts towards or away from the Sun, resulting in moderate temperatures and daylight hours.
+
+The same process occurs in the Southern Hemisphere, but with the seasons reversed. When it's summer in the Northern Hemisphere, it's winter in the Southern Hemisphere, and vice versa.
+
+Other factors, such as the Earth's elliptical orbit and the distribution of land and sea, also influence the seasons, but the tilt of the Earth's axis is the primary driver of seasonal changes.",406,7.176,-,2025-04-15T17:14:02.455287
+48,"If f(x) = x^3, what is the second derivative?",Scout,hard,-,"To find the second derivative of f(x) = x^3, we first need to find the first derivative. 
+
+The first derivative of f(x) = x^3 is f'(x) = 3x^2.
+
+Now, to find the second derivative, we differentiate the first derivative:
+
+f''(x) = d(3x^2)/dx = 6x.
+
+So, the second derivative of f(x) = x^3 is f''(x) = 6x.",128,3.704,-,2025-04-15T17:14:03.149761
+49,What is the freezing point of water in Celsius?,Scout,easy,-,The freezing point of water is 0 degrees Celsius (°C).,34,2.116,-,2025-04-15T17:14:03.853779
+50,Name the largest planet in our solar system.,Scout,easy,-,The best answer is Jupiter,25,1.337,0,2025-04-15T17:14:05.019783

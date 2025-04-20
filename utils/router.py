@@ -1,4 +1,5 @@
 from models.mistral_local import call_mistral
+import re
 
 ROUTING_TEMPLATE = """
 You are part of a hybrid intelligence system.
@@ -18,18 +19,25 @@ Prompt:
 --------------------
 {user_prompt}
 --------------------
-"""
 
-def confidence(user_prompt: str) -> str:
+Only return the response in integer as the response.Do not include any other text or explanation.
+
+Example:
+Prompt: "What is the capital of France?"
+=> 10
+""" 
+
+def confidence(user_prompt: str) -> float:
     routing_prompt = ROUTING_TEMPLATE.format(user_prompt=user_prompt)
     result = call_mistral(routing_prompt)
-    
-    try:
-        confidence = float(result.strip())
-        return max(0.0, min(confidence, 10.0))
-    except ValueError:
-        print("[Confidence Routing] Could not parse score:", result)
-        return 0.0
+
+    match = re.search(r"\b(\d+(?:\.\d+)?)\b", result)
+    if match:
+        score = float(match.group(1))
+        return max(0.0, min(score, 10.0))
+
+    print("[Confidence Routing] Could not parse score:", result)
+    return 0.0
     
 def route_decider(confidence: float, threshold: float = 6.0) -> str:
     if confidence >= threshold:

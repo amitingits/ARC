@@ -5,8 +5,8 @@ from models.mistral_local import call_mistral
 from models.scout_api import call_scout_model
 from utils.router import route_decider, confidence
 
-DATA_FILE = "data/mistral_dataset.jsonl"
-TEST_NAME = "hybrid_arc"
+DATA_FILE = "data/set1.jsonl"
+TEST_NAME = "hybrid_arc_set1"
 
 def load_tasks(filepath):
     with open(filepath, "r", encoding="utf-8") as f:
@@ -27,7 +27,6 @@ def main():
                 start_time = time.time()
                 response = call_mistral(prompt)
                 duration = round(time.time() - start_time, 3)
-                print(duration)
                 tokens = "-"
             else:
                 start_time = time.time()

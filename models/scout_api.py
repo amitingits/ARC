@@ -9,6 +9,7 @@ load_dotenv()
 API_KEY = os.getenv("OPENROUTER_API_KEY")
 MODEL = "meta-llama/llama-4-scout:free"
 URL = "https://openrouter.ai/api/v1/chat/completions"
+#API = "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"
 
 HEADERS = {
     "Authorization": f"Bearer {API_KEY}",
