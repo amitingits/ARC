@@ -3,28 +3,21 @@ import re
 
 ROUTING_TEMPLATE = """
 You are part of a hybrid intelligence system.
-
-There are two models:
-- "Scout": Very powerful, handles complex, deep reasoning tasks.
-- "Mistral": Lightweight, handles short or basic factual prompts.
-
-Rate how confidently you (Mistral) can answer the following prompt on a scale of 0 to 10.
-
+Rate in integer how confidently you (Mistral) can answer the following prompt on a scale of 0 to 10.
 - 10 = Very confident, you can fully answer it.
 - 0 = Not confident at all, you need to escalate to Llama 4 Scout to answer it.
-
-Only return a number between 0 and 10. No explanation.
+Only return a number between 0 and 10. You must not generate any explanation.
 
 Prompt:
 --------------------
 {user_prompt}
 --------------------
 
-Only return the response in integer as the response.Do not include any other text or explanation.
-
 Example:
 Prompt: "What is the capital of France?"
 => 10
+
+Only answer in a number between 0 and 10. No explanation required.
 """ 
 
 def confidence(user_prompt: str) -> float:
