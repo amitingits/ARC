@@ -5,8 +5,8 @@ from models.mistral_local import call_mistral
 from models.scout_api import call_scout_model
 from utils.router import route_decider, confidence
 
-DATA_FILE = "data/set1.jsonl"
-TEST_NAME = "hybrid_arc_set1"
+DATA_FILE = "data/set2.jsonl"
+TEST_NAME = "hybrid_arc_set2"
 
 def load_tasks(filepath):
     with open(filepath, "r", encoding="utf-8") as f:

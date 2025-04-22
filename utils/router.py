@@ -17,7 +17,7 @@ Example:
 Prompt: "What is the capital of France?"
 => 10
 
-Only answer in a number between 0 and 10. No explanation required.
+Only answer in a number between 0 and 10 only strictly.
 """ 
 
 def confidence(user_prompt: str) -> float:
